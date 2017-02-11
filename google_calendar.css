@@ -1,0 +1,60 @@
+.dp-cur, .chip dt, .te, .te-t, .te-rev-s, .rb-n, .rb-i, .agenda, .event-title{
+white-space:normal !important;
+}
+
+#calendarTitle,
+.tab-name,
+img[title="Print my calendar (shows preview)"],
+.footer img,
+.details .links a:last-child,
+.event-links a:last-child
+{display:none;}
+
+.mv-event-container
+{border-color:#999;}
+
+.navBack,
+.navForward
+{ background-image: url(images/combined_v22.png); }
+
+.agenda-more
+{ color:#0D75BB; }
+.agenda .date-label
+{ padding:5px 0px; }
+.dp-popup
+{background:#fff;}
+
+.view-cap, .view-container-border,
+.mv-daynames-table,
+.ui-rtsr-selected,
+.wk-weektop,
+.wk-dummyth,
+.date-picker-arrow-on,
+.dp-weekend-selected
+{ background-color:#dfdfdf; }
+
+.ui-rtsr-unselected,
+.mv-daynames-table,
+.wk-daynames,
+.wk-dayname,
+.dp-prev,
+.dp-cur,
+.dp-next
+{ color:#666; }
+
+.ui-rtsr-unselected
+{ background-color:transparent;}
+
+.dp-weekday-selected,
+.agenda .date-label
+{background-color:#efefef;}
+
+.dp-today-selected
+{background-color:#fad163;}
+
+.mv-daynames-table,
+.wk-daynames
+{height:30px; font-size:14px;}
+
+.mv-event-container
+{ top:30px;}
